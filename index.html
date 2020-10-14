@@ -4,7 +4,128 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alessia's Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
-  <body></body>
+  <body>
+    <nav id="navbar">
+      <ul class="navbar-list">
+        <li class="list-item">
+          <a class="navbar-link" href="#welcome-section">About</a>
+        </li>
+        <li class="list-item">
+          <a class="navbar-link" href="projects">Work</a>
+        </li>
+        <li class="list-item">
+          <a class="navbar-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <header id="welcome-section">
+      <h1 class="title-1">Ciao! I'm Alessia</h1>
+      <h2 class="title-2">A mighty web-developer</h2>
+    </header>
+    <main>
+      <section id="projects">
+        <h2 class="project-title">These are some of my projects</h2>
+        <article class="project-tile">
+          <a
+            class="project-link"
+            href="https://codepen.io/amaschio/full/QWNRrmJ"
+            target="_blank"
+          >
+            <img
+              class="image"
+              src="./images/tribute-page.PNG"
+              alt="Bowie tribute page"
+          /></a>
+          <button class="button">
+            <a
+              class="project-link"
+              href="https://codepen.io/amaschio/full/QWNRrmJ"
+              target="_blank"
+              >Tribute page</a
+            >
+          </button>
+        </article>
+        <article class="project-tile">
+          <a
+            class="project-link"
+            href="https://codepen.io/amaschio/full/ZEWdpxZ"
+            target="_blank"
+          >
+            <img class="image" src="./images/survey-form.PNG" alt="Survey form"
+          /></a>
+          <button class="button">
+            <a
+              class="project-link"
+              href="https://codepen.io/amaschio/full/ZEWdpxZ"
+              target="_blank"
+              >Survey form</a
+            >
+          </button>
+        </article>
+        <article class="project-tile">
+          <a
+            class="project-link"
+            href="https://codepen.io/amaschio/full/BazyoXe"
+            target="_blank"
+          >
+            <img
+              class="image"
+              src="./images/product-landing-page.PNG"
+              alt="Product landing page"
+          /></a>
+          <button class="button">
+            <a
+              class="project-link"
+              href="https://codepen.io/amaschio/full/BazyoXe"
+              target="_blank"
+              >Product landing page</a
+            >
+          </button>
+        </article>
+
+        <button class="button-2">
+          <a
+            class="project-link"
+            href="https://codepen.io/your-work/"
+            target="_blank"
+            >Show all ></a
+          >
+        </button>
+      </section>
+      <section id="contact">
+        <h2 class="contact-title">Let's work together...</h2>
+        <h3 class="contact-sub-title">How do you take your coffee?</h3>
+        <nav>
+          <ul>
+            <li>Facebook</li>
+            <li>
+              <a
+                href="https://github.com/alessiamaschio"
+                id="profile-link"
+                target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li>Twitter</li>
+            <li>Send an email</li>
+            <li>Call me</li>
+          </ul>
+        </nav>
+      </section>
+    </main>
+    <footer>
+      <h4>
+        **This is just a fake portfolio. All the projects are for my personal
+        learning.
+      </h4>
+      <h4 class="copyright">&copy; 2020 Alessia Maschio</h4>
+    </footer>
+  </body>
 </html>
